@@ -12,11 +12,11 @@ import Foundation
 class GooglePlacesAPIClient {
     
 func searchListMichelinRestaurant(location: String, completion: @escaping(NSDictionary)->()) {
- let apiKey = "AIzaSyDsagQBaR19k0oRLSFuUkke-n3pi_hrr1M"
+
  let currentLocation = "NYC"
  let guideType = "Michelin"
     
-    let urlString = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=\(guideType)+restaurants+in+\(currentLocation)&key=\(apiKey)"
+    let urlString = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=\(guideType)+restaurants+in+\(currentLocation)&key=\(Secrets.apiKey)"
     
     let url = URL(string: urlString)
     

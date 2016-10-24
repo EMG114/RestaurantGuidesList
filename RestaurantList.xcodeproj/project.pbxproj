@@ -16,6 +16,7 @@
 		07DF67871DBDA6A500358781 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF67861DBDA6A500358781 /* Restaurant.swift */; };
 		07DF67891DBDB37000358781 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF67881DBDB37000358781 /* DataStore.swift */; };
 		07DF678D1DBDB98100358781 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07DF678C1DBDB98100358781 /* GoogleService-Info.plist */; };
+		07DF678F1DBDBFDC00358781 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF678E1DBDBFDC00358781 /* Secrets.swift */; };
 		A0B1AE214AE9F4B027120CDD /* Pods_RestaurantList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDE086EAD5816C89906F8AD /* Pods_RestaurantList.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		07DF67861DBDA6A500358781 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		07DF67881DBDB37000358781 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		07DF678C1DBDB98100358781 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07DF678E1DBDBFDC00358781 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		6511ACD9BD47E05B8DD9889C /* Pods-RestaurantList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantList.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantList/Pods-RestaurantList.release.xcconfig"; sourceTree = "<group>"; };
 		8CDE086EAD5816C89906F8AD /* Pods_RestaurantList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4522CF9953A4F8DAF284E1 /* Pods-RestaurantList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantList/Pods-RestaurantList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				07DF67721DBD991B00358781 /* AppDelegate.swift */,
 				07DF67861DBDA6A500358781 /* Restaurant.swift */,
 				07DF67741DBD991B00358781 /* ViewController.swift */,
+				07DF678E1DBDBFDC00358781 /* Secrets.swift */,
 				07DF67881DBDB37000358781 /* DataStore.swift */,
 				07DF67841DBD993E00358781 /* GooglePlacesAPIClient.swift */,
 				07DF67761DBD991B00358781 /* Main.storyboard */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DF67871DBDA6A500358781 /* Restaurant.swift in Sources */,
+				07DF678F1DBDBFDC00358781 /* Secrets.swift in Sources */,
 				07DF67851DBD993E00358781 /* GooglePlacesAPIClient.swift in Sources */,
 				07DF67751DBD991B00358781 /* ViewController.swift in Sources */,
 				07DF67891DBDB37000358781 /* DataStore.swift in Sources */,
